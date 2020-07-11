@@ -11,7 +11,7 @@ body {
 body .bg {
   -webkit-clip-path: polygon(100% 0, 100% 84%, 48% 100%, 0 100%, 0 0);
           clip-path: polygon(100% 0, 100% 84%, 48% 100%, 0 100%, 0 0);
-  background-color: #005dff;
+  background-color: #005DFF;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -77,9 +77,9 @@ main .card ul li {
 }
 
 main .card ul li span {
-  content: ' ';
-  width: 30px;
-  height: 30px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
   background-color: #ccdfff;
   border-radius: 50%;
   margin-right: 10px;
@@ -131,7 +131,7 @@ main .primary a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  background-color: #fff6bb;
+  background-color: #FFF6BB;
   display: block;
   text-align: center;
   margin: 50px auto 0 auto;
