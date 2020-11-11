@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62%;
+}
+
+.root {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 16px;
+}
+
+.food_img {
+    width: 100%;
+}
